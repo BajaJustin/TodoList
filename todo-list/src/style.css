@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #284b63;
+  color: #353535;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+section {
+  background-color: white;
+  width: 90vw;
+  max-width: 35em;
+  margin: 0 auto;
+  margin-top: 9em;
+  border-radius: 0.7em;
+  padding: 0.5em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.modalText {
+  text-align: center;
+  color: red;
+  border: 1px solid red;
+  margin: 0.3em 12em 0.3em 12em;
+  padding: 0.2em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+form input {
+  font-size: 0.7em;
+  border: none;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+.userInput {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+*:focus {
+  outline: 0 !important;
+}
+svg {
+  width: 3em;
+  height: 3em;
+  stroke-width: 5;
+}
+article {
+  background-color: #d9d9d9;
+  margin: 0.5em 0.5em;
+  padding: 0.5em 0.5em;
+  border-radius: 0.3em;
+  box-shadow: 2px 2px 2px black;
+}
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.todoItem button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
